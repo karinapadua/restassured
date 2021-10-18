@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.restassuredatividade.GetStatusCodeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.972 s <<< FAILURE! - in test.java.com.restassuredatividade.GetStatusCodeTest
-getStatusCodeOK  Time elapsed: 3.389 s  <<< ERROR!
-java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class io.restassured.response.ValidatableResponseOptions (io.restassured.path.xml.XmlPath and io.restassured.response.ValidatableResponseOptions are in unnamed module of loader 'app')
-	at test.java.com.restassuredatividade.GetStatusCodeTest.getStatusCodeOK(GetStatusCodeTest.java:23)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.461 s <<< FAILURE! - in test.java.com.restassuredatividade.GetStatusCodeTest
+getStatusCodeNOK  Time elapsed: 5.061 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Page Not Found> but was: <null>
+	at test.java.com.restassuredatividade.GetStatusCodeTest.getStatusCodeNOK(GetStatusCodeTest.java:30)
 

@@ -9,25 +9,24 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.response.ValidatableResponseOptions;
+import main.java.com.restassuredatividade.GetStatusCode;
 import io.restassured.http.ContentType;
 
 public class GetStatusCodeTest {
     @BeforeAll
     public static void setup() {
-        RestAssured.baseURI = "https://theaxolotlapi.netlify.app/";
+        RestAssured.baseURI = "https://axoltlapi.herokuapp.com/";
     }
 
     @Test
     public void getStatusCodeOK() {
-        String conteudo = (String) given().get("/axolotlbasics.html").then().assertThat().statusCode(200).extract()
-                .path("//b[contains(text(),'Axolotl basics')]");
-        assertEquals("Axolotl basics", conteudo);
+        String conteudo = given().get().then().assertThat().statusCode(200).extract().path("api_repo");
+        assertEquals("https://github.com/AxolotlAPI/axolotl.py-api", conteudo);
     }
 
-    // @Test
-    // public void getStatusCodeNOK() {
-    // ValidatableResponse code =
-    // given().get("/axolotlbasic.html").then().assertThat().statusCode(404);
-    // assertEquals(404, code);
-    // }
+    @Test
+    public void getStatusCodeNOK() {
+        String code = given().get("/axolotlbasic.html").then().assertThat().statusCode(404).extract().path("h1");
+        assertEquals("Page Not Found", code);
+    }
 }
