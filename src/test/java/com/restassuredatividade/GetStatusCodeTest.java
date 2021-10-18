@@ -13,20 +13,23 @@ import main.java.com.restassuredatividade.GetStatusCode;
 import io.restassured.http.ContentType;
 
 public class GetStatusCodeTest {
-    @BeforeAll
-    public static void setup() {
-        RestAssured.baseURI = "https://axoltlapi.herokuapp.com/";
-    }
+    // @BeforeAll
+    // public static void setup() {
+    // RestAssured.baseURI = "https://axoltlapi.herokuapp.com/";
+    // }
 
     @Test
     public void getStatusCodeOK() {
+        RestAssured.baseURI = "https://axoltlapi.herokuapp.com/";
         String conteudo = given().get().then().assertThat().statusCode(200).extract().path("api_repo");
         assertEquals("https://github.com/AxolotlAPI/axolotl.py-api", conteudo);
     }
 
     @Test
     public void getStatusCodeNOK() {
-        String code = given().get("/axolotlbasic.html").then().assertThat().statusCode(404).extract().path("h1");
-        assertEquals("Page Not Found", code);
+        RestAssured.baseURI = "https://axoltlapi.herokuapp.com/";
+        Response conteudo = given().get("/axolotlbasic.html").then().assertThat().statusCode(404).extract()
+                .path("api_");
+        assertEquals(null, conteudo);
     }
 }

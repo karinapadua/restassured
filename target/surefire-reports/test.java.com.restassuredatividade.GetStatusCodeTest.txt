@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.restassuredatividade.GetStatusCodeTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.461 s <<< FAILURE! - in test.java.com.restassuredatividade.GetStatusCodeTest
-getStatusCodeNOK  Time elapsed: 5.061 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Page Not Found> but was: <null>
-	at test.java.com.restassuredatividade.GetStatusCodeTest.getStatusCodeNOK(GetStatusCodeTest.java:30)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.344 s - in test.java.com.restassuredatividade.GetStatusCodeTest

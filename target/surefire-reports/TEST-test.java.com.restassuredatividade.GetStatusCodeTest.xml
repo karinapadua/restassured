@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.com.restassuredatividade.GetStatusCodeTest" time="7.461" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.com.restassuredatividade.GetStatusCodeTest" time="9.344" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Karina\AppData\Local\Temp\surefire5746369118433417072\surefirebooter9159326107747612613.jar C:\Users\Karina\AppData\Local\Temp\surefire5746369118433417072 2021-10-18T18-58-45_965-jvmRun1 surefire1516001932828807331tmp surefire_02223932229173262085tmp"/>
+    <property name="sun.java.command" value="C:\Users\Karina\AppData\Local\Temp\surefire1693367580640857951\surefirebooter3235482946819534969.jar C:\Users\Karina\AppData\Local\Temp\surefire1693367580640857951 2021-10-18T19-39-19_693-jvmRun1 surefire8186430064349072226tmp surefire_09863277524423388289tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\MBA\Automated Software Testing\AtividadeRestAssured\restassuredatividade\target\test-classes;C:\MBA\Automated Software Testing\AtividadeRestAssured\restassuredatividade\target\classes;C:\Users\Karina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Karina\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Karina\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Karina\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Karina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Karina\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Karina\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Karina\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Karina\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Karina\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Karina\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Karina\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Karina\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Karina\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Karina\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Karina\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Karina\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Karina\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Karina\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Karina\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Karina\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Karina\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Karina\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Karina\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Karina\.m2\repository\org\mockito\mockito-core\3.8.0\mockito-core-3.8.0.jar;C:\Users\Karina\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\Karina\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\Karina\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Karina\AppData\Local\Temp\surefire5746369118433417072\surefirebooter9159326107747612613.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Karina\AppData\Local\Temp\surefire1693367580640857951\surefirebooter3235482946819534969.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -60,10 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getStatusCodeNOK" classname="test.java.com.restassuredatividade.GetStatusCodeTest" time="5.061">
-    <failure message="expected: &lt;Page Not Found&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Page Not Found> but was: <null>
-	at test.java.com.restassuredatividade.GetStatusCodeTest.getStatusCodeNOK(GetStatusCodeTest.java:30)
-]]></failure>
-  </testcase>
-  <testcase name="getStatusCodeOK" classname="test.java.com.restassuredatividade.GetStatusCodeTest" time="1.017"/>
+  <testcase name="getStatusCodeNOK" classname="test.java.com.restassuredatividade.GetStatusCodeTest" time="7.828"/>
+  <testcase name="getStatusCodeOK" classname="test.java.com.restassuredatividade.GetStatusCodeTest" time="1.103"/>
 </testsuite>
